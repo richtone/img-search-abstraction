@@ -1,3 +1,3 @@
-#Image Search Abstration Layer
+#Image Search Abstraction Layer
 
 Richard Turza
