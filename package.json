@@ -9,9 +9,11 @@
   "author": "Richard Turza",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "mongodb": "^2.2.16",
     "node-google-image-search": "^1.0.2"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
