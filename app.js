@@ -55,7 +55,7 @@ express()
 .get("/api/latest/imagesearch",(req, res) => {
     
     searchTerms
-    .find({}, {"term" : 1, "when" : 1})
+    .find({}, { "_id": 0, "term" : 1, "when" : 1})
     .sort({ $natural:-1 })
     .limit(10)
     .toArray((err,data) => {
