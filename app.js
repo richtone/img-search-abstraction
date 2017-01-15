@@ -23,7 +23,7 @@ mongodb.connect(dbURL, (err, db) => {
 
 express()
 .get("/", (req,res) => {
-    res.end();
+    res.end("Welcome. API runs on /api/imagesearch/[search term].\nFind latest search terms on /api/latest/imagesearch/.");
 })
 .get("/api/imagesearch/:search_string", (req, res) => {
     let ss = req.params.search_string;
